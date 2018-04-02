@@ -1,0 +1,8 @@
+*.pyc
+.idea
+NGIIMapInspectManager/log
+NGIIMapInspectManager/tmp_result
+connection.ini
+inspect_layer_info.json
+NGIIMapInspectManager/result_img
+NGIIMapInspectManager/feature_info
