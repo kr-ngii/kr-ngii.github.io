@@ -8,9 +8,9 @@ import time
 
 XML_TEMPLATE = '''
     <pyqgis_plugin name="{plugin_name}" version="{version}" plugin_id="{id}">
-        <description><![CDATA[{description}]]</description>
-        <about><![CDATA[{about}]]</about>
-        <version><![CDATA[{version}]]</version>
+        <description><![CDATA[{description}]]></description>
+        <about><![CDATA[{about}]]></about>
+        <version><![CDATA[{version}]]></version>
         <trusted>False</trusted>
         <qgis_minimum_version>{qgis_minimum_version}</qgis_minimum_version>
         <qgis_maximum_version>{qgis_maximum_version}</qgis_maximum_version>
