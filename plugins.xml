@@ -8,7 +8,7 @@
         <qgis_minimum_version>2.18</qgis_minimum_version>
         <qgis_maximum_version>2.99</qgis_maximum_version>
         <homepage><![CDATA[]]></homepage>
-        <file_name>NgiiQiReportViewer/.zip</file_name>
+        <file_name>NgiiQiReportViewer.zip</file_name>
         <icon>https://kr-ngii.github.io/icons/NgiiQiReportViewer/icon.png</icon>
         <author_name><![CDATA[NGII]]></author_name>
         <download_url>https://kr-ngii.github.io/download/NgiiQiReportViewer_0.8.zip</download_url>
@@ -31,7 +31,7 @@
         <qgis_minimum_version>2.14</qgis_minimum_version>
         <qgis_maximum_version>2.99</qgis_maximum_version>
         <homepage><![CDATA[https://gaia3d.github.io/OnMapLoader/]]></homepage>
-        <file_name>OnMapLoader/.zip</file_name>
+        <file_name>OnMapLoader.zip</file_name>
         <icon>https://kr-ngii.github.io/icons/OnMapLoader/icon.png</icon>
         <author_name><![CDATA[BJ Jang of Gaia3D]]></author_name>
         <download_url>https://kr-ngii.github.io/download/OnMapLoader_1.3.zip</download_url>

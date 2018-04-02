@@ -16,7 +16,7 @@ XML_TEMPLATE = '''
         <qgis_maximum_version>{qgis_maximum_version}</qgis_maximum_version>
         <homepage><![CDATA[{homepage}]]></homepage>
         <file_name>{folder_name}.zip</file_name>
-        <icon>https://kr-ngii.github.io/icons/{folder_name}icon.png</icon>
+        <icon>https://kr-ngii.github.io/icons/{folder_name}/icon.png</icon>
         <author_name><![CDATA[{author_name}]]></author_name>
         <download_url>https://kr-ngii.github.io/download/{crr_zip_file}</download_url>
         <create_date>{create_date}</create_date>
@@ -45,20 +45,21 @@ def main():
             for zip_file_path in file_list:
                 with zipfile.ZipFile(zip_file_path) as zip_file:
                     # ROOT 폴더만 추출
-                    folders = [folder_name for folder_name in zip_file.namelist() if folder_name.endswith('/') and folder_name.count("/") == 1]
+                    folders = [folder_name[:-1] for folder_name in zip_file.namelist() if folder_name.endswith('/') and folder_name.count("/") == 1]
                     if len(folders) != 1:
                         raise Exception(u"ZIP 파일의 루트에 플러그인 폴더 외의 폴더가 있음")
                     folder_name = folders[0]
+                    print folder_name
 
                     # metadata.txt
-                    metadata_txt = zip_file.read(os.path.join(folder_name, "metadata.txt"))
+                    metadata_txt = zip_file.read("{}/metadata.txt".format(folder_name))
                     print metadata_txt
 
                     metadata = ConfigParser.ConfigParser()
                     metadata.readfp(StringIO.StringIO(metadata_txt))
 
                     icon_file = metadata.get("general", "icon")
-                    src_icon = zip_file.read(os.path.join(folder_name, icon_file))
+                    src_icon = zip_file.read("{}/{}".format(folder_name, icon_file))
 
                     icon_folder = os.path.join("../icons/", folder_name)
                     if not os.path.exists(icon_folder):
