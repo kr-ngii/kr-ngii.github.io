@@ -6,7 +6,7 @@
    - 이미 QGIS 2.14, 혹은 2.18 버전이 설치된 분은 이 단계를 무시하고 다음 단계로 넘어가시면 됩니다.
    - 아쉽게도 QGIS 3.0은 아직 지원되지 않습니다. 가능하시면 QGIS 2.18 버전을 사용해 주세요.
    - QGIS는 무료 오픈소스 GIS 프로그램으로 기업과 개인 누구나 자유롭게 사용 가능합니다.
-   - QGIS 설치 프로그램 다운로드를 위해 다음 경로로 이동합니다. https://qgis.org/ko/site/forusers/download.html
+   - QGIS 설치 프로그램 다운로드를 위해 다음 경로로 이동합니다. <https://qgis.org/ko/site/forusers/download.html>
    - 이 중'QGIS 독립 설치관리자 버전 2.18 버전'중 자신의 OS에 맞는 버전을 받으시면 됩니다.
    - 혹시 자신의 OS에 맞는 버전을 모르면 'QGIS 독립 설치관리자 버전 2.18 버전(32 비트)'를 받으시면 됩니다.
    ![QGIS 다운로드 화면](./images/1_download.png)
