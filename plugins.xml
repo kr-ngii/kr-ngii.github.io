@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <plugins>
-    <pyqgis_plugin name="NgiiQiReportViewer" version="0.8" plugin_id="100000">
+    <pyqgis_plugin name="NgiiQiReportViewer" version="0.9" plugin_id="100000">
         <description><![CDATA[국토기본정보 품질검사 결과 뷰어]]></description>
         <about><![CDATA[국토지리정보원의 국토기본정보 품질검사 결과 Shape과 이미지들을 쉽게 볼 수 있게 해주는 프로그램입니다.]]></about>
-        <version><![CDATA[0.8]]></version>
+        <version><![CDATA[0.9]]></version>
         <trusted>False</trusted>
         <qgis_minimum_version>2.18</qgis_minimum_version>
         <qgis_maximum_version>2.99</qgis_maximum_version>
@@ -12,8 +12,8 @@
         <icon>https://kr-ngii.github.io/icons/NgiiQiReportViewer/icon.png</icon>
         <author_name><![CDATA[NGII]]></author_name>
         <download_url>https://kr-ngii.github.io/download/NgiiQiReportViewer.zip</download_url>
-        <create_date>2018-04-02T02:34:38</create_date>
-        <update_date>2018-04-02T02:34:38</update_date>
+        <create_date>2018-04-05T08:53:00</create_date>
+        <update_date>2018-04-05T08:56:56</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[github.com/gaia3d]]></tracker>
@@ -35,8 +35,8 @@
         <icon>https://kr-ngii.github.io/icons/OnMapLoader/icon.png</icon>
         <author_name><![CDATA[BJ Jang of Gaia3D]]></author_name>
         <download_url>https://kr-ngii.github.io/download/OnMapLoader.zip</download_url>
-        <create_date>2018-03-25T07:30:38</create_date>
-        <update_date>2018-03-25T07:30:38</update_date>
+        <create_date>2018-04-05T08:55:29</create_date>
+        <update_date>2018-04-05T08:55:29</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[https://github.com/Gaia3D/OnMapLoader/issues]]></tracker>
