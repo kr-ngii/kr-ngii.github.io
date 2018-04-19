@@ -9,16 +9,20 @@
    - QGIS 설치 프로그램 다운로드를 위해 다음 경로로 이동합니다. <https://qgis.org/ko/site/forusers/download.html>
    - 이 중'QGIS 독립 설치관리자 버전 2.18 버전'중 자신의 OS에 맞는 버전을 받으시면 됩니다.
    - 혹시 자신의 OS에 맞는 버전을 모르면 'QGIS 독립 설치관리자 버전 2.18 버전(32 비트)'를 받으시면 됩니다.
+
    ![QGIS 다운로드 화면](./images/1_download.png)
    - 다운로드 받은 설치관리자 프로그램은 실행하시고 다음, 다음만 하면 쉽게 설치됩니다.
 
 2. 플러그인 관리자에 플러그인 저장소 경로 추가
    - QGIS가 설치되면 실행해 주십시오.
    - QGIS의 메뉴 중 [플러그인-플러그인 관리 및 설치...] 메뉴를 선택해 주십시오.
+
    ![QGIS 플러그인 관리자 실행](./images/2_menu.png)
    - '플러그인 관리자' 창이 뜨면 [설정] 탭을 선택하고, [추가] 버튼을 눌러주십시오.
+
    ![추가버튼 선택](./images/2_add_button.png)
    - '저장소 상세정보' 창의 '이름'에 'NGII Repo', 'URL'에 'https://kr-ngii.github.io/plugins.xml'을 입력하시고 [확인] 버튼을 누러주세요.
+
    ![상세정보 입력](./images/2_fill_info.png)
    - NGII 저장소가 추가되며 저장소에서 정보를 다시 불러옵니다.
    - 혹시 저장소 정보를 불러오는 중 오류가 발생하면 [모든 저장소 다시 불러오기] 버튼을 누르면 대부분 해결 됩니다.
@@ -28,10 +32,36 @@
    - 그럼 국토지리정보원과 관련된 플러그인이 검색됩니다.
    - 설치를 원하는 플러그인을 선택하시고 [플러그인 설치] 버튼을 누르시면 쉽게 설치 됩니다.
    - 이 설명에서는 품질검사 결과 뷰어인 NgiiQiReportView를 예로 들겠습니다.
+
    ![NGII 플러그인들](./images/3_ngii_plugins.png)
    - ngii 라는 검색어로 검색된 플러그인 중 NgiiQiReportViewer를 선택하고
    - [플러그인 설치] 버튼을 누르면 플러그인이 자동으로 설치됩니다.
    - 설치가 정상적으로 수행되면 QGIS 메뉴에 'NGII'라는 메뉴 아래에 '품질검사 결과 뷰어'메뉴가 생기고 툴바에도 QI Report Viewer라는 버튼이 생기게 됩니다.
+
+4. 외부사업자 품질검사툴을 위한 PostgreSQL과 PostGIS 설치
+   - 국토정보지리원에서는 국토기본정보를 작성 혹은 수정해 납품하는 외부사업자가 자체적으로 품질을 검사후 납품할 수 있도록 '국토기본정보 품질검사툴'을 무료 배포합니다.
+   - 품질검사툴은 데이터베이스 연산을 기반으로 동작하기 때문에 PostgreSQL이라는 DB와 공간정보를 다룰 수 있게 하는 확장팩인 PostGIS를 추가적으로 설치해 주어야 이용 가능합니다.
+   - PostgreSQL과 PostGIS은 누구나 무료로 사용할 수 있는 오픈소스 소프트웨어이며 인터넷에서 무료로 다운로드 받아 설치 가능합니다.
+   - PostgreSQL은 다음 링크에서 9.6 버전을 다운로드 받으시면 됩니다.
+   - https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+   - 다운로드 사이트에서 아래 그림처럼 'PostgreSQL 9.6.x' 와 'Windows x86-32'를 선택하시고 [DOWNLOAD NOW] 버튼을 클릭하시면 됩니다.
+
+   ![PostgreSQL Download](./images/1-4-1_postgresql_download.png)
+   - PostGIS는 다음 링크에서 2.4 버전을 다운로드 받으시면 됩니다.
+   - http://download.osgeo.org/postgis/windows/pg96/
+   - 이 페이지의 여러 파일 중 PostgreSQL과 버전이 맞는 것을 선택해야 하는데, 우리의 경우에는 postgis-bundle-pg96x32-setup-2.4.x.exe 와 유사한 이름을 가진 파일입니다.
+
+   ![PostGIS Download](./images/1-4-2_postgis_download.png)
+   - 두 프로그램 모두 설치 마법사이므로 설치는 쉽습니다.
+   - PostgreSQL의 설치는 다운받은 'postgresql-9.6.x-windows' 파일을 실행하시고 [다음] 버튼만 누르면 거의 됩니다.
+   - PostgreSQL에서는 관리자 계정인 postgres 계정의 아이디를 정하시고 기억해 주시는 것이 중요합니다. 보통 postgres 라는 계정과 동일한 암호를 사용합니다.
+   - PostgreSQL 설치 마지막 단셰에 Stack Builder라는 확장툴을 설치할 수 있는 옵션이 실행되는데 이 단계는 추소하고 그냥 종료 하시면 됩니다.
+
+   ![postgre 암호 입력](./images/1-4-3_postgres_pwd.png)
+   - PostGIS의 설치도 다운로드 받은 'postgis-bundle-pg96x32-setup-2.4.4-1.exe' 파일을 실행하기만 하면 어렵지 않게 할 수 있습니다.
+   - 계속 [다음] 만 누르면 거의 되는데, PostgreSQL 설치시 지정했던 postgres 계정의 암호를 입력하는 화면만 주의하시면 됩니다.
+
+   ![postgis 암호 입력](./images/1-4-4_postgis_pwd.png)
 
 ## 품질검사 결과 뷰어 사용법
 1. 시작하기
@@ -42,6 +72,7 @@
 
 2. 검사결과 불러오기
    - 국토기본정보 품질검사 결과로 생긴 검사결과 Shape 파일을 공간정보로 보는 과정입니다.
+   - 검사 결과는 국토기본정보 품질검사 프로그램으로 검사 후 사용자 폴더 아래의 .qgis2/qi_result 폴더에 생기게 됩니다.
    - '검사결과파일 선택' 부분의 [...] 버튼을 클릭하면 파일을 선택하는 창이 나옵니다.
    - 여기서 검사결과가 있는 폴더로 가서 err_index.shp, 혹은 err_idx.shp 파일을 선택해 주면 됩니다.
    ![결과파일 선택](./images/2-2_open.png)
