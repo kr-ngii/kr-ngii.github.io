@@ -23,10 +23,10 @@
         <server>False</server>
     </pyqgis_plugin>
 
-    <pyqgis_plugin name="NgiiQiReportViewer" version="1.02" plugin_id="100001">
+    <pyqgis_plugin name="NgiiQiReportViewer" version="1.04" plugin_id="100001">
         <description><![CDATA[국토기본정보 품질검사 결과 뷰어]]></description>
         <about><![CDATA[국토지리정보원의 국토기본정보 품질검사 결과 Shape과 이미지들을 쉽게 볼 수 있게 해주는 프로그램입니다.]]></about>
-        <version><![CDATA[1.02]]></version>
+        <version><![CDATA[1.04]]></version>
         <trusted>False</trusted>
         <qgis_minimum_version>2.18</qgis_minimum_version>
         <qgis_maximum_version>2.99</qgis_maximum_version>
@@ -36,7 +36,7 @@
         <author_name><![CDATA[NGII]]></author_name>
         <download_url>https://kr-ngii.github.io/download/NgiiQiReportViewer.zip</download_url>
         <create_date>2018-04-05T08:53:00</create_date>
-        <update_date>2018-04-10T11:13:26</update_date>
+        <update_date>2018-04-26T02:04:21</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[github.com/gaia3d]]></tracker>
