@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <plugins>
-    <pyqgis_plugin name="NGII Map Inspect Manager" version="0.99" plugin_id="100000">
+    <pyqgis_plugin name="NGII Map Inspect Manager" version="1.0" plugin_id="100000">
         <description><![CDATA[국토기본정보 검사 프로그램]]></description>
         <about><![CDATA[본 검사 프로그램은 국토지리정보원에서 제공하는 국토기본정보 검사 프로그램입니다. 검사 대상은 SHP 또는 GeoPackage 포맷의 국토기본정보입니다.]]></about>
-        <version><![CDATA[0.99]]></version>
+        <version><![CDATA[1.0]]></version>
         <trusted>False</trusted>
         <qgis_minimum_version>2.18</qgis_minimum_version>
         <qgis_maximum_version>2.99</qgis_maximum_version>
@@ -12,8 +12,8 @@
         <icon>https://kr-ngii.github.io/icons/NGIIMapInspectManager/icon.png</icon>
         <author_name><![CDATA[NGII]]></author_name>
         <download_url>https://kr-ngii.github.io/download/NGIIMapInspectManager.zip</download_url>
-        <create_date>2018-05-14T02:27:09</create_date>
-        <update_date>2018-05-14T02:25:25</update_date>
+        <create_date>2018-05-14T02:30:30</create_date>
+        <update_date>2018-05-14T02:30:19</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[github.com/gaia3d]]></tracker>
