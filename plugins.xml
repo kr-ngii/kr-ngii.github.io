@@ -46,7 +46,7 @@
         <server>False</server>
     </pyqgis_plugin>
 
-    <pyqgis_plugin name="NGII Map Inspect Manager" version="1.00" plugin_id="100002">
+    <pyqgis_plugin name="NGII Data Quality Check Manager" version="1.00" plugin_id="100002">
         <description><![CDATA[국토기본정보 검사 프로그램]]></description>
         <about><![CDATA[본 검사 프로그램은 국토지리정보원에서 제공하는 국토기본정보 검사 프로그램입니다. 검사 대상은 SHP 또는 GeoPackage 포맷의 국토기본정보입니다.]]></about>
         <version><![CDATA[1.00]]></version>
@@ -59,7 +59,7 @@
         <author_name><![CDATA[NGII]]></author_name>
         <download_url>https://kr-ngii.github.io/download/NGIIMapInspectManager.zip</download_url>
         <create_date>2018-05-14T02:16:16</create_date>
-        <update_date>2018-05-16T01:17:20</update_date>
+        <update_date>2018-05-20T13:02:50</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[github.com/gaia3d]]></tracker>
