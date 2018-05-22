@@ -54,12 +54,12 @@
         <qgis_minimum_version>2.18</qgis_minimum_version>
         <qgis_maximum_version>2.99</qgis_maximum_version>
         <homepage><![CDATA[]]></homepage>
-        <file_name>NGIIMapInspectManager.zip</file_name>
-        <icon>https://kr-ngii.github.io/icons/NGIIMapInspectManager/icon.png</icon>
+        <file_name>NGIIDataQualityCheckTool.zip</file_name>
+        <icon>https://kr-ngii.github.io/icons/NGIIDataQualityCheckTool/icon.png</icon>
         <author_name><![CDATA[NGII]]></author_name>
-        <download_url>https://kr-ngii.github.io/download/NGIIMapInspectManager.zip</download_url>
-        <create_date>2018-05-22T11:54:51</create_date>
-        <update_date>2018-05-22T11:54:48</update_date>
+        <download_url>https://kr-ngii.github.io/download/NGIIDataQualityCheckTool.zip</download_url>
+        <create_date>2018-05-22T12:19:27</create_date>
+        <update_date>2018-05-22T12:19:14</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[github.com/gaia3d]]></tracker>
