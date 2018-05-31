@@ -23,7 +23,7 @@
         <server>False</server>
     </pyqgis_plugin>
 
-    <pyqgis_plugin name="NGII Data Quality Check Tool (for data creator)" version="1.00" plugin_id="100001">
+    <pyqgis_plugin name="NGII Data Quality Check Tool (for data creator)" version="1.01" plugin_id="100001">
         <description><![CDATA[국토기본정보 검사 프로그램]]></description>
         <about><![CDATA[본 검사 프로그램은 국토지리정보원에서 제공하는 국토기본정보 검사 프로그램입니다. 검사 대상은 SHP 또는 GeoPackage 포맷의 국토기본정보입니다.]]></about>
         <version><![CDATA[1.01]]></version>
