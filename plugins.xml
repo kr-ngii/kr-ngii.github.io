@@ -12,8 +12,8 @@
         <icon>https://kr-ngii.github.io/icons/NGIIDataOverlayQualityCheck/icon.png</icon>
         <author_name><![CDATA[NGII]]></author_name>
         <download_url>https://kr-ngii.github.io/download/NGIIDataOverlayQualityCheck.zip</download_url>
-        <create_date>2018-05-23T05:41:45</create_date>
-        <update_date>2018-05-24T22:49:13</update_date>
+        <create_date>2018-05-30T12:59:11</create_date>
+        <update_date>2018-05-30T12:59:11</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[http://bugs]]></tracker>
@@ -23,10 +23,10 @@
         <server>False</server>
     </pyqgis_plugin>
 
-    <pyqgis_plugin name="NGII Data Quality Check Tool (for data creator)" version="1.01" plugin_id="100001">
+    <pyqgis_plugin name="NGII Data Quality Check Tool (for data creator)" version="1.02" plugin_id="100001">
         <description><![CDATA[국토기본정보 검사 프로그램]]></description>
         <about><![CDATA[본 검사 프로그램은 국토지리정보원에서 제공하는 국토기본정보 검사 프로그램입니다. 검사 대상은 SHP 또는 GeoPackage 포맷의 국토기본정보입니다.]]></about>
-        <version><![CDATA[1.01]]></version>
+        <version><![CDATA[1.02]]></version>
         <trusted>False</trusted>
         <qgis_minimum_version>2.18</qgis_minimum_version>
         <qgis_maximum_version>2.99</qgis_maximum_version>
@@ -35,8 +35,8 @@
         <icon>https://kr-ngii.github.io/icons/NGIIDataQualityCheckTool/icon.png</icon>
         <author_name><![CDATA[NGII]]></author_name>
         <download_url>https://kr-ngii.github.io/download/NGIIDataQualityCheckTool.zip</download_url>
-        <create_date>2018-05-23T05:22:38</create_date>
-        <update_date>2018-05-23T05:22:38</update_date>
+        <create_date>2018-06-14T02:40:33</create_date>
+        <update_date>2018-06-14T02:40:14</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[github.com/gaia3d]]></tracker>
@@ -58,8 +58,8 @@
         <icon>https://kr-ngii.github.io/icons/NGIIMapInspectManager/icon.png</icon>
         <author_name><![CDATA[NGII]]></author_name>
         <download_url>https://kr-ngii.github.io/download/NGIIMapInspectManager.zip</download_url>
-        <create_date>2018-04-30T00:10:34</create_date>
-        <update_date>2018-05-23T05:22:38</update_date>
+        <create_date>2018-05-27T07:13:32</create_date>
+        <update_date>2018-05-27T07:13:32</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[github.com/gaia3d]]></tracker>
@@ -81,8 +81,8 @@
         <icon>https://kr-ngii.github.io/icons/NgiiQiReportViewer/icon.png</icon>
         <author_name><![CDATA[NGII]]></author_name>
         <download_url>https://kr-ngii.github.io/download/NgiiQiReportViewer.zip</download_url>
-        <create_date>2018-04-17T12:59:56</create_date>
-        <update_date>2018-05-23T05:22:38</update_date>
+        <create_date>2018-05-22T12:35:38</create_date>
+        <update_date>2018-05-22T12:35:38</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[github.com/gaia3d]]></tracker>
@@ -104,8 +104,8 @@
         <icon>https://kr-ngii.github.io/icons/OnMapLoader/icon.png</icon>
         <author_name><![CDATA[BJ Jang of Gaia3D]]></author_name>
         <download_url>https://kr-ngii.github.io/download/OnMapLoader.zip</download_url>
-        <create_date>2018-03-25T07:30:38</create_date>
-        <update_date>2018-03-25T07:30:38</update_date>
+        <create_date>2018-04-05T08:55:29</create_date>
+        <update_date>2018-04-05T08:55:29</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[https://github.com/Gaia3D/OnMapLoader/issues]]></tracker>
