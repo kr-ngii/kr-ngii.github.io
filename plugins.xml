@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <plugins>
-    <pyqgis_plugin name="NGII Data Overlay Quality Check" version="0.91" plugin_id="100000">
+    <pyqgis_plugin name="NGII Data Overlay Quality Check" version="0.92" plugin_id="100000">
         <description><![CDATA[국토지리정보원 공간정보 중첩 검사 툴]]></description>
         <about><![CDATA[국토지리정보원에서 제공하는 공간정보들을 쉽게 불려 중첩해 볼 수 있도록 지원하는 툴입니다. 온맵, 국가인터넷지도, 지형도, 정사영상 등의 자료를 올바른 공간적 위치로 손쉽게 불러올 수 있습니다. 이런 자료들을 중첩, 창분할, 그룹별 투명도 변경, 그룹별 색상변경을 통해 비교할 수 있습니다. 또한 차이점에 대해 화면 캡처와 함께 기록할 수 있습니다.]]></about>
-        <version><![CDATA[0.91]]></version>
+        <version><![CDATA[0.92]]></version>
         <trusted>False</trusted>
         <qgis_minimum_version>2.14</qgis_minimum_version>
         <qgis_maximum_version>2.99</qgis_maximum_version>
@@ -12,8 +12,8 @@
         <icon>https://kr-ngii.github.io/icons/NGIIDataOverlayQualityCheck/icon.png</icon>
         <author_name><![CDATA[NGII]]></author_name>
         <download_url>https://kr-ngii.github.io/download/NGIIDataOverlayQualityCheck.zip</download_url>
-        <create_date>2018-05-23T05:41:45</create_date>
-        <update_date>2018-06-17T15:29:40</update_date>
+        <create_date>2018-06-21T16:27:08</create_date>
+        <update_date>2018-06-21T16:27:10</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[https://github.com/kr-ngii/kr-ngii.github.io/issues]]></tracker>
