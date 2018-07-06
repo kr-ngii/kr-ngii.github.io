@@ -46,29 +46,6 @@
         <server>False</server>
     </pyqgis_plugin>
 
-    <pyqgis_plugin name="NGII Data Quality Check Manager" version="1.0" plugin_id="100002">
-        <description><![CDATA[국토기본정보 품질검사 프로그램]]></description>
-        <about><![CDATA[본 플러그인은 국토기본정보을 검사하기 위한 플러그인입니다.]]></about>
-        <version><![CDATA[1.0]]></version>
-        <trusted>False</trusted>
-        <qgis_minimum_version>2.18</qgis_minimum_version>
-        <qgis_maximum_version>2.99</qgis_maximum_version>
-        <homepage><![CDATA[]]></homepage>
-        <file_name>NGIIMapInspectManager.zip</file_name>
-        <icon>https://kr-ngii.github.io/icons/NGIIMapInspectManager/icon.png</icon>
-        <author_name><![CDATA[NGII]]></author_name>
-        <download_url>https://kr-ngii.github.io/download/NGIIMapInspectManager.zip</download_url>
-        <create_date>2018-04-30T00:10:34</create_date>
-        <update_date>2018-06-17T15:28:55</update_date>
-        <experimental>False</experimental>
-        <deprecated>False</deprecated>
-        <tracker><![CDATA[github.com/gaia3d]]></tracker>
-        <repository><![CDATA[github.com/gaia3d]]></repository>
-        <tags><![CDATA[]]></tags>
-        <external_dependencies></external_dependencies>
-        <server>False</server>
-    </pyqgis_plugin>
-
     <pyqgis_plugin name="NGII QC Report Viewer" version="1.06" plugin_id="100003">
         <description><![CDATA[국토기본정보 품질검사 결과 뷰어]]></description>
         <about><![CDATA[국토지리정보원의 국토기본정보 품질검사 결과 Shape과 이미지들을 쉽게 볼 수 있게 해주는 프로그램입니다.]]></about>
