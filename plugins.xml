@@ -23,10 +23,10 @@
         <server>False</server>
     </pyqgis_plugin>
 
-    <pyqgis_plugin name="NGII Data Quality Check Tool (for data creator)" version="1.08" plugin_id="100001">
+    <pyqgis_plugin name="NGII Data Quality Check Tool (for data creator)" version="1.09" plugin_id="100001">
         <description><![CDATA[국가기본도 검사 프로그램]]></description>
         <about><![CDATA[본 검사 프로그램은 국토지리정보원에서 제공하는 국가기본도 검사 프로그램입니다. 검사 대상은 SHP 또는 GeoPackage 포맷의 국가기본도입니다.]]></about>
-        <version><![CDATA[1.08]]></version>
+        <version><![CDATA[1.09]]></version>
         <trusted>False</trusted>
         <qgis_minimum_version>2.18</qgis_minimum_version>
         <qgis_maximum_version>2.99</qgis_maximum_version>
@@ -35,8 +35,8 @@
         <icon>https://kr-ngii.github.io/icons/NGIIDataQualityCheckTool/icon.png</icon>
         <author_name><![CDATA[NGII]]></author_name>
         <download_url>https://kr-ngii.github.io/download/NGIIDataQualityCheckTool.zip</download_url>
-        <create_date>2018-11-09T07:49:28</create_date>
-        <update_date>2018-11-09T07:49:01</update_date>
+        <create_date>2018-11-12T01:40:37</create_date>
+        <update_date>2018-11-12T01:40:09</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[github.com/kr-ngii]]></tracker>
